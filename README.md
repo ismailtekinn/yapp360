@@ -1,4 +1,64 @@
+# Yapp360
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Proje Hakkında
+
+Yapp360, kullanıcıların kolayca veri girişi yapabileceği, modern ve performanslı bir web uygulamasıdır. Next.js ile geliştirilmiş olup, hızlı ve SEO dostu bir yapıya sahiptir.
+
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonlayın:  
+   ```bash
+   git clone https://github.com/ismailtekinn/yapp360.git
+   cd yapp360
+   ```
+
+2. Gerekli paketleri yükleyin:  
+   ```bash
+   npm install
+   # veya
+   yarn
+   # veya
+   pnpm install
+   ```
+
+3. Geliştirme sunucusunu başlatın:  
+   ```bash
+   npm run dev
+   # veya
+   yarn dev
+   # veya
+   pnpm dev
+   ```
+
+4. Tarayıcıda [http://localhost:3000](http://localhost:3000) adresini açın.
+
+## Kullanılan Teknolojiler ve Kütüphaneler
+
+- **Next.js:** React tabanlı framework.
+- **React:** Kullanıcı arayüzü oluşturmak için.
+- **TypeScript:** Daha güvenli ve okunabilir kod için.
+- **Tailwind CSS:** Hızlı ve modern CSS framework.
+- **Lucide-react:** İkon kütüphanesi.
+- **Vercel:** Next.js uygulamasını dağıtmak için (deployment).
+
+## Proje Yapısı ve Mimarisi
+
+- `app/`: Next.js 13 ile gelen yeni dizin yapısı. Sayfalar, layoutlar ve route dosyaları burada bulunur.
+- `components/`: Proje genelinde tekrar kullanılabilir bileşenler.
+- `public/`: Statik dosyalar (resim, favicon vs.).
+- `styles/`: Global stil dosyaları.
+- `README.md`: Proje dökümantasyonu.
+
+Veri akışı `useState`, `useEffect` gibi React hook'ları ile yönetilmektedir. Next.js'in sunucu taraflı rendering özelliği gerektiğinde kullanılmaktadır.
+
+## Karşılaşılan Zorluklar ve Çözüm Yaklaşımları
+
+- **Performans Sorunları:** Büyük veri setleri için sayfalama (pagination) sistemi geliştirildi.
+- **Responsive Tasarım:** Tailwind CSS kullanılarak tüm ekran boyutlarına uyum sağlandı.
+- **Kod Organizasyonu:** Bileşenler modüler şekilde ayrıldı, okunabilirlik artırıldı.
+- **SEO Uyumlu Yapı:** Next.js'in SSR özellikleri aktif şekilde kullanıldı.
 
 ## Getting Started
 
